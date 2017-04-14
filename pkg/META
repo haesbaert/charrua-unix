@@ -1,0 +1,3 @@
+description = "DHCP server and wire format"
+requires = "cstruct ipaddr lwt charrua-core cmdliner rawlink tuntap mtime"
+version = "%%VERSION_NUM%%"

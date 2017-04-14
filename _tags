@@ -1,5 +1,3 @@
 true: debug, bin_annot, strict_sequence
-true: package(charrua-core.server)
-true: package(lwt.unix), ppopt(-lwt-debug)
-true: package(cstruct cstruct.lwt cstruct.unix)
+true: package(charrua-core.server lwt.unix cstruct cstruct.lwt cstruct.unix)
 true: package(cmdliner ipaddr tuntap rawlink mtime.os)

@@ -180,5 +180,5 @@ let cmd =
   (*               (Arg.doc_alts_enum when_enum)) ["color"] in *)
   (*   Arg.(value & opt (enum when_enum) `Auto & doc) in *)
   Term.(pure charruad $ configfile $ verbosity $ daemonize),
-  Term.info "charruad" ~version:"0.1" ~doc:"Charrua DHCPD"
+  Term.info "charruad" ~version:"%%VERSION%%" ~doc:"Charrua DHCPD"
 let () = match Term.eval cmd with `Error _ -> exit 1 | _ -> exit 0
